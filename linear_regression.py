@@ -56,3 +56,4 @@ result = list(linear_est.predict(eval_input_fn))
 print(dfeval.loc[1])
 print(y_eval.loc[1])
 print(result[1]['probabilities'][1])
+
